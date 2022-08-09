@@ -28,12 +28,12 @@
                 <form action="" class="row row-cols-md-auto ms-2">
                 <div>
                     <label  for="email">Email or Phone</label>
-                    <input type="text" name="email" id="email" class="form-control ">
+                    <input type="text" name="email" id="email" class="form-control " required>
                 </div>
 
                 <div>
                     <label for="pwd">Password</label>
-                    <input type="text" name="pass" id="pwd" class="form-control">
+                    <input type="text" name="pass" id="pwd" class="form-control" required>
                     <div><a href="#" class="text-light text-decoration-none">Forgotten account?</a></div>
                 </div>
 
@@ -55,16 +55,16 @@
                 <p class="text-center">It's free and always will be</p>
                 <form action="">
                 <div class="col-12 d-flex mb-3">
-                  <input type="text" placeholder="First name" class="form-control">
-                  <input type="text" placeholder="Surname" class="form-control ms-1">
+                  <input type="text" placeholder="First name" class="form-control" required>
+                  <input type="text" placeholder="Surname" class="form-control ms-1" required>
                 </div>
                   <div class="mb-3">
-                    <input type="text" placeholder="Mobile number or email address" class="form-control">
+                    <input type="text" placeholder="Mobile number or email address" class="form-control" required>
                   </div>
                   <div class="mb-3">
-                    <input type="text" placeholder="New password" class="form-control">
+                    <input type="text" placeholder="New password" class="form-control" required>
                   </div>
-                </form>
+               
                 <h5>Birthday</h5>
                 <div class="d-flex">
                     <select>
@@ -79,7 +79,7 @@
                     </select>
                     <p style="font-size:x-small;" class="ms-2">Why do I need to provide my date of birth</p>
                 </div>
-                <form action="">
+              
                    <div>
                     <label for="female">
                         <input type="radio" name="gender"> Female
@@ -88,11 +88,12 @@
                         <input type="radio" class="ms-3" name="gender"> Male
                     </label>
                    </div>
-                </form>
+               
                 <p style="font-size: x-small;">By clicking sign up,you agree to the Terms, Data Policy and company policy.You may receive SMS notification from us and can opt out anytime.</p>
                 <div class="mb-3 text-center">
                     <button class="btn btn-success btn-lg col-8">Sign Up</button>
                 </div>
+                </form>
                 <p style="font-size: x-small;">Create a page for a celebrity, band or business.</p>
             </div>
         </div>
